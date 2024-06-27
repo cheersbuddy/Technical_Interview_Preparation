@@ -27,3 +27,6 @@ int main() {
 -Explanation:
 -10 / 3 evaluates to 3 (as per integer division) as both 10 and 3 are integer, then 3 gets assigned to float variable resulting in 3.000000
 
+-there is no long float in C
+
+
