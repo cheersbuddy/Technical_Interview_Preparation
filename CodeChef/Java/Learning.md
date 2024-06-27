@@ -120,3 +120,105 @@ Output
 -95  Negative
 
 - Note: create a function outside the main class;;; and function should be declared static ``` public static void n (int nu)```
+  
+**running the loop with the input values times**
+
+- Add Two Numbers
+  
+Your task is very simple: given two integers 
+𝐴
+A and 
+𝐵
+B, write a program to add these two numbers and output the sum.
+
+Input Format
+The first line contains an integer 
+𝑇
+T, the total number of test cases.
+Then follow 
+𝑇
+T lines, each line contains two integers, 
+𝐴
+A and 
+𝐵
+B.
+Output Format
+For each test case, add 
+𝐴
+A and 
+𝐵
+B and display the sum in a new line.
+
+Constraints
+1
+≤
+𝑇
+≤
+1000
+1≤T≤1000
+0
+≤
+𝐴
+,
+𝐵
+≤
+10000
+0≤A,B≤10000
+Sample 1:
+Input
+Output
+3
+1 2
+100 200
+10 40
+3
+300
+50
+Explanation:
+Testcase 1: 
+1
++
+2
+=
+3
+1+2=3. Hence the first output is 
+3
+3.
+
+Testcase 2: 
+100
++
+200
+=
+300
+100+200=300. Hence the second output is 
+300
+300.
+
+```
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+    public static void n(int x, int y){
+        System.out.println(x+y);
+    }
+	public static void main (String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0)
+		{
+    		int a = sc.nextInt();
+    		int b = sc.nextInt();
+    		// write your code here
+    		n(a,b);
+		}
+		
+	}
+}
+
+```
