@@ -46,4 +46,12 @@ int main() {
 -Explanation:
 -The code will throw a compilation error because 'a' and 'b' are declared as char arrays, but the code is reading input as an integer.
 
+```
+scanf("%[^\n]%*c", &s);
+```
+-all the characters entered as the input, including the spaces, until we hit the enter button are stored in the variable, name
+-%[^\n]" means 'read everything that is not a newline'
+
+- %*c read the next character but don't save it anywhere'; 
+this gets rid of the newline that we didn't read in the first part.
 
