@@ -29,4 +29,21 @@ int main() {
 
 -there is no long float in C
 
+```
+#include <stdio.h>
+int main() {
+    char a[1],b[1];
+    int c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    c = a + b;
+    printf("%d", c);
+    return 0;
+}
+```
+-The code will lead to a compilation error.
+
+-Explanation:
+-The code will throw a compilation error because 'a' and 'b' are declared as char arrays, but the code is reading input as an integer.
+
 
