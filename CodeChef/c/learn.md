@@ -48,10 +48,24 @@ int main() {
 
 ```
 scanf("%[^\n]%*c", &s);
+
+..
+printf("%s",s);
 ```
 -all the characters entered as the input, including the spaces, until we hit the enter button are stored in the variable, name
 -%[^\n]" means 'read everything that is not a newline'
 
 - %*c read the next character but don't save it anywhere'; 
 this gets rid of the newline that we didn't read in the first part.
+
+- %s is used as format specifier instead of %c because of %*c which expects a pointer
+  
+   ```
+  scanf("%[^\n]%*c",&sen);
+   ...
+    printf("%s",s); // a random statement
+    printf("\n%s",sen);
+   ```
+   - \n cannot be used in the end of the second statement but the begining of third because the format specifier used in scanf will read a new line character which is executed at the end of the previous statement
+     
 
