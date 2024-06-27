@@ -119,4 +119,4 @@ Output
 0    Zero  
 -95  Negative
 
-- Note: create a function outside the main class;;;
+- Note: create a function outside the main class;;; and function should be declared static ``` public static void n (int nu)```
