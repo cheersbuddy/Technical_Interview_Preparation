@@ -64,3 +64,59 @@ Sample Input
 
 Your Output
 123
+
+# Functions
+
+```
+import java.util.Scanner;
+
+public class Main 
+{
+    public static void n (int nu){
+            if (nu>=1){
+                System.out.println("Positive\n");
+            }
+            else if (nu==0){
+                System.out.println("Zero\n");
+            }
+            else{
+                System.out.println("Negative\n");
+            }
+           
+        }
+        
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+        int num, num1, num2;
+
+        
+        
+        num = scanner.nextInt(); // input first number
+        // Check first number
+        n(num);
+        num1 = scanner.nextInt(); // input second number
+        // Check second number
+        n(num1);
+        
+        num2 = scanner.nextInt(); // input third number
+        // Check third number
+        n(num2);
+        
+    }
+}
+```
+# QUESTION
+
+Positive and Negative
+Write a program to check whether the three given numbers as input are Positive, Negative, or Zero.
+
+Sample 1:
+Input
+Output
+
+20  Positive  
+0    Zero  
+-95  Negative
+
+- Note: create a function outside the main class;;;
