@@ -67,5 +67,25 @@ this gets rid of the newline that we didn't read in the first part.
     printf("\n%s",sen);
    ```
    - \n cannot be used in the end of the second statement but the begining of third because the format specifier used in scanf will read a new line character which is executed at the end of the previous statement
+ 
+     ```
+     #include <stdio.h>
+     int main() {
+     int p=10;
+     int *q=&p;
+     printf("%d\n",p);
+     printf("%d\n",&p);
+     printf("%d\n",q);
+     printf("%d\n",*q);
+     return 0;
+      }
+     ```
+     ```
+     10
+     -771758620
+     -771758620
+     10
+     ```
+     
      
 
