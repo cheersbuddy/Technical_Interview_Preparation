@@ -21,4 +21,12 @@ it creates a class and allocates memory to your instance.
 ENCAPSULATION leads to data hiding
 POLYMORPHISM is implemented in INHERITANCE
 DYNAMIC BINDING IS IMPLEMENTED USING VIRTUAL FUNCTION MAKING IT A PART OF RUNTIME POLYMORPHISM
-ACCESS SPECIFIERS ARE USED TO IMPLEMENT DATA ABSTRACTION
+ACCESS SPECIFIERS ARE USED TO IMPLEMENT DATA hiding
+
+FRIEND CLASS
+A friend class can access private and protected members of other classes in which it is declared as a friend.
+For example, a LinkedList class may be allowed to access private members of Node
+ EXPLAINATION: a linked list can be a class and the node values can be from another class .  so if the linked list is declared as a friend class to another class, it can access the node values which will be useful to manipulate the LL
+
+FRIEND CLASS:
+friend return_type function_name(arguments)
