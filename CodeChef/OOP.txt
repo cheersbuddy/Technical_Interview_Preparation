@@ -1,0 +1,24 @@
+OBJECT:
+An Object is an identifiable entity with some characteristics and behavior.
+An Object is an instance of a Class. 
+
+DECLARING A FUNCTION OUTSIDE CLASS:
+return_type class_name::function_name()
+
+COPY CONSTRUCTOR:
+A Copy Constructor creates a new object, which is an exact copy of the existing object. 
+The compiler provides a default Copy Constructor to all the classes.
+
+IMPORTANT:
+Why do we give semicolons at the end of class?
+Many people might say that it’s a basic syntax and we should give a semicolon at the end of the class as 
+its rule defines in cpp. But the main reason why semi-colons are there at the end of the class is compiler checks 
+if the user is trying to create an instance of the class at the end of it. Yes just like structure and union, we can also 
+create the instance of a class at the end just before the semicolon. As a result, once execution reaches at that line,
+it creates a class and allocates memory to your instance.
+
+
+ENCAPSULATION leads to data hiding
+POLYMORPHISM is implemented in INHERITANCE
+DYNAMIC BINDING IS IMPLEMENTED USING VIRTUAL FUNCTION MAKING IT A PART OF RUNTIME POLYMORPHISM
+ACCESS SPECIFIERS ARE USED TO IMPLEMENT DATA ABSTRACTION
