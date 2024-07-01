@@ -47,6 +47,46 @@ rent the services and pay on hourly basis
 
 LIFE CYCLE OF CLOUD COMPUTING:
 
+AWS:
+
+Secure cloud service platform
+
+identity and access management can be done
+
+COMPANIES THAT USE AWS:
+
+adobe
+
+
+airbnb
+
+
+autodesk
+
+
+aol
+
+
+Bitdefender # security company # uses EC2
+
+BMW
+
+Canon
+
+COMCAST # cable company
+
+Docker
+
+esa # europian space agency
+
+the gaurdian # a newspaper company
+
+financial times
+
+general electric
+
+ harvard medical school etc
+
 AWS SERVICES:
 
 Amazon S3 - 
