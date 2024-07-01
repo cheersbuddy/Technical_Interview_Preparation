@@ -56,3 +56,67 @@ Sure! Here are the answers along with explanations and examples where applicable
     - **Example:** When creating a service in AngularJS, it can be injected into a controller to share data or functionality.
 
 Understanding these concepts with examples will help demonstrate practical knowledge and application during an interview.
+---
+Here are the answers with explanations and examples for each question:
+
+1. **What is a bulk email?**
+   - **Answer:** Bulk email refers to sending large volumes of emails to a group of recipients at once, usually for marketing purposes.
+   - **Example:** A company sending promotional offers to its entire customer base.
+   - **Difference:** Unlike individual emails, bulk emails are sent to a large list simultaneously, often using specialized software to manage and track the campaign.
+
+2. **Ambition is one of those – – – which are never satisfied.**
+   - **Answer:** desires.
+   - **Explanation:** Ambition, like desire, is an emotion or feeling that often grows as one achieves more, leading to continuous pursuit of goals.
+   - **Example:** A person achieving a career milestone may set higher goals, reflecting their ongoing ambition.
+
+3. **A class of 170 students, 115 like physics, 110 chemistry, and 130 like biology. 85 like physics and biology, 75 like physics and chemistry, 95 like chemistry and biology, and 70 like all three. How many students only like physics?**
+   - **Answer:** 45 students.
+   - **Explanation:** Using the principle of inclusion-exclusion:
+     - Total liking Physics (P) = 115
+     - Total liking Chemistry (C) = 110
+     - Total liking Biology (B) = 130
+     - P ∩ B = 85, P ∩ C = 75, C ∩ B = 95, P ∩ C ∩ B = 70
+     - Students only liking Physics = P - (P ∩ B + P ∩ C - P ∩ C ∩ B) = 115 - (85 + 75 - 70) = 115 - 90 = 25.
+   - **Example:** Venn diagrams in set theory can visualize this, ensuring clarity in overlaps.
+
+4. **A is the son of B’s sister. B and C are brothers. How is A related to C?**
+   - **Answer:** Nephew.
+   - **Explanation:** A is B's sister's son, making A B's nephew. Since B and C are brothers, A is also C's nephew.
+   - **Example:** In family trees, a nephew is the son of one’s sibling.
+
+5. **Y earns more than B, but not as much as T. She earns more than A. Who earns least?**
+   - **Answer:** A.
+   - **Explanation:** From the given information: T > Y > B > A, so A earns the least.
+   - **Example:** Comparing salaries within a team can help determine who earns the most and least.
+
+6. **Sheila ranks 13 in a class of 46. What will be her rank from the last?**
+   - **Answer:** 34th.
+   - **Explanation:** To find the rank from the last: Total students - Sheila's rank + 1 = 46 - 13 + 1 = 34.
+   - **Example:** Inverting ranks helps understand position from the opposite end.
+
+7. **A square is related to a cube, as a circle is related to –**
+   - **Answer:** Sphere.
+   - **Explanation:** A square is a 2D shape, and its 3D counterpart is a cube. Similarly, a circle is a 2D shape, and its 3D counterpart is a sphere.
+   - **Example:** Geometry teaches 2D to 3D transformations, like drawing squares to cubes and circles to spheres.
+
+8. **The set FN contains all factors of N². The set MN contains all multiples of N² + 1 < 2000. Which of the statements is true?**
+   - **Answer:** If a number is in FN, then it must divide N². If a number is in MN, then it must be of the form (N² + 1) * k, where k is an integer and (N² + 1) * k < 2000.
+   - **Explanation:** FN includes numbers that can divide N² evenly, while MN includes numbers that are multiples of N² + 1.
+   - **Example:** For N=4, FN contains 1, 2, 4, 8, 16, while MN contains multiples of 17 (N² + 1).
+
+9. **A hiker walks 50 m north, turns left, and walks 30 m. The hiker turns left and walks for 50 m, then turns left and walks 50 m more. How far is the hiker from the starting point?**
+   - **Answer:** 30 meters.
+   - **Explanation:** The hiker's path forms a rectangle: walks 50 m north, 30 m west, 50 m south, 30 m east. Final position is 30 m west of the starting point.
+   - **Example:** This is similar to navigating a city block where the final displacement from the start point is the net movement in one direction.
+
+10. **An insurer has 12,000 policyholders. Of the 12,000 people, 2000 have a 0.01 chance they will become infected with a virus, 4000 have a 0.03 chance, and the remaining have a 0.15 chance. If one person gets the virus, what is the chance they are part of the group with a 0.03 chance of getting infected?**
+    - **Answer:** 12.9%.
+    - **Explanation:** Use Bayes' theorem. Let A be the event of selecting from the 0.03 group, and B be the event of getting infected.
+      - P(A) = 4000/12000 = 1/3
+      - P(B|A) = 0.03
+      - P(B) = (2000 * 0.01 + 4000 * 0.03 + 6000 * 0.15) / 12000 = 0.085
+      - P(A|B) = (P(B|A) * P(A)) / P(B) = (0.03 * 1/3) / 0.085 ≈ 0.1294
+    - **Example:** This type of calculation helps in medical studies and risk assessment.
+
+These answers and explanations provide context and real-world applications, helping in understanding the concepts better during interviews.
+---
