@@ -5,6 +5,7 @@ store and access data anywhere
 CLOUD PROVIDERS:
  companies that offer cloud services
  eg: AWS , Microsoft Azure and Google cloud platform
+ 
  BENEFITS:
  
  speed
@@ -47,19 +48,45 @@ rent the services and pay on hourly basis
 LIFE CYCLE OF CLOUD COMPUTING:
 
 AWS SERVICES:
-Amazon S3
 
-AWS Data Transfer
+Amazon S3 - 
+greate for internet backup
 
-Amazon EC2
+cheap storage option
 
-Amazon SNS
+data is retrivable from the internet
 
-Amazon KMS
+AWS Data Transfer-
 
-Amazon Lambda
+collect data seamlessly
+
+realtime monitoring and analysing  of data
+
+Amazon EC2(elastic compute 2)
+
+ resizable computer(alter the size anytime)
+
+Amazon SNS-
+
+notification system
+
+Amazon KMS(Key management system)
+
+security tool - uses aes 256 bit encryption to encrypt data
+
+
+Amazon Lambda-
+
+pay only for time in seconds it takes to execute the code  
+
+no need to pay for infrastructure
 
 Route 53
+
+a DNS service in cloud
+
+there is no need to maintain any DNS account somewhere else
+
 
 
 
