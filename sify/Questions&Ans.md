@@ -120,3 +120,66 @@ Here are the answers with explanations and examples for each question:
 
 These answers and explanations provide context and real-world applications, helping in understanding the concepts better during interviews.
 ---
+Here are the answers with explanations and real-world applications for each question:
+
+1. **Choose the one that comes in the middle.**
+   - **Options:** a: seeming B: seesaw C: seedling d: seemly
+   - **Answer:** d: seemly.
+   - **Explanation:** Alphabetically, "seemly" comes after "seedling" and before "seeming."
+   - **Example:** This kind of question tests alphabetical order knowledge, useful in sorting tasks in programming.
+
+2. **Which of the following code represents exit cleanly following a large clock skew (32768 milliseconds) event?**
+   - **Answer:** There is no code provided in the question, but generally, you need to handle clock skew using synchronization protocols or time adjustment functions.
+   - **Example:** Using NTP (Network Time Protocol) to handle clock synchronization issues in distributed systems.
+
+3. **Choose the one that comes first? Options are information, infinitive, infantry, informal.**
+   - **Answer:** infantry.
+   - **Explanation:** Alphabetically, "infantry" comes before "infinitive," "informal," and "information."
+   - **Example:** Sorting names or items in alphabetical order is a common task in data management.
+
+4. **What type of computing technology refers to services and applications that typically run on a distributed network through virtual resources?**
+   - **Answer:** Cloud computing.
+   - **Explanation:** Cloud computing leverages distributed networks and virtualization to provide scalable services and applications.
+   - **Example:** Amazon Web Services (AWS) offers cloud services such as computing power, storage, and databases.
+
+5. **Cloud computing is a kind of abstraction, which is based on the notion of combining physical resources and represents them as – – – resources to users.**
+   - **Answer:** virtual resources.
+   - **Explanation:** Cloud computing abstracts physical resources to present them as virtual resources.
+   - **Example:** Virtual machines (VMs) in a cloud infrastructure appear as separate resources to users, despite sharing underlying hardware.
+
+6. **Select from among the five alternatives, the word nearest in meaning to the word given in capitals – EXTRICATE.**
+   - **Answer:** Free.
+   - **Explanation:** "Extricate" means to free someone or something from a constraint or difficulty.
+   - **Example:** In coding, extricating a piece of code might mean refactoring it to remove dependencies.
+
+7. **What is the output of the following program?**
+   ```c
+   int main() {
+       float f = 2.0;
+       switch(f) {
+           case 1.0: printf("one"); break;
+           case 2.0: printf("two"); break;
+           default: printf("%f", f);
+       }
+       return 0;
+   }
+   ```
+   - **Answer:** Compilation error.
+   - **Explanation:** Switch statements in C cannot directly handle floating-point types. The cases must be integer constants.
+   - **Example:** Using switch statements is common in control flow, but knowing type constraints is crucial.
+
+8. **Which of the following statements is/are true about threads?**
+   - **Answer:** True statements could include: Threads share the same process memory space, they are lighter than processes, and context switching between threads is faster than between processes.
+   - **Example:** In multi-threaded applications, threads can improve performance by running tasks concurrently within the same process.
+
+9. **Which one of the following cloud concepts is related to sharing and pooling the resources?**
+   - **Answer:** Resource pooling.
+   - **Explanation:** Resource pooling allows cloud providers to serve multiple consumers using a multi-tenant model with different physical and virtual resources dynamically assigned according to demand.
+   - **Example:** In a cloud environment, multiple virtual machines might share the same physical server resources.
+
+10. **Which one of the following can be considered as a utility that dates from the beginning of the computing industry itself?**
+    - **Answer:** Time-sharing.
+    - **Explanation:** Time-sharing allows multiple users to share computer resources simultaneously by interleaving their tasks.
+    - **Example:** Early mainframes used time-sharing to allow multiple users to access a single computer system simultaneously.
+
+By understanding these concepts and providing real-world applications, you demonstrate not only theoretical knowledge but also practical insights during an interview.
