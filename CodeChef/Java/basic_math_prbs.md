@@ -1,3 +1,10 @@
+- ![WhatsApp Image 2024-07-02 at 11 41 26_2ba5f2c6](https://github.com/cheersbuddy/Technical_Interview_Preparation/assets/126586644/ce4fdec5-8c29-4dbc-accb-911504f6d5e6)
+
+- ![WhatsApp Image 2024-07-02 at 11 41 26_91f46d2f](https://github.com/cheersbuddy/Technical_Interview_Preparation/assets/126586644/4d63bf8d-9e81-47e4-99cc-c004e6ba8f33)
+
+- ![WhatsApp Image 2024-07-02 at 11 41 26_8a296daf](https://github.com/cheersbuddy/Technical_Interview_Preparation/assets/126586644/06e06800-b294-4e4c-95a5-43148315f039)
+
+
 Second Max of Three Numbers
 Problem Statement
 Write a program that accepts sets of three numbers, and prints the second-maximum number among the three.
