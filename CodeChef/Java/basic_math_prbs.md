@@ -59,3 +59,73 @@ public class Codechef {
 4. **Output**: We print the second maximum for each triple.
 
 This solution directly compares the three numbers and finds the second largest among them, which is more efficient and easier to understand than the previous logic.
+--- 
+Sum of Digits
+You're given an integer N. Write a program to calculate the sum of all the digits of N.
+
+Input Format
+The first line contains an integer T, the total number of testcases. Then follow T lines, each line contains an integer N.
+
+Output Format
+For each test case, calculate the sum of digits of N, and display it in a new line.
+
+Constraints
+1
+≤
+𝑇
+≤
+1000
+1≤T≤1000
+1
+≤
+𝑁
+≤
+1000000
+1≤N≤1000000
+Sample 1:
+Input
+Output
+3 
+12345
+31203
+2123
+15
+9
+8
+```
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s= new Scanner(System.in);
+		int t=s.nextInt();
+		
+		for(int i=0;i<t;i++){
+		    int sum=0;
+		    int a=s.nextInt();
+		    while(a>0){
+		        int temp=a%10;
+		        sum+=temp;
+		        a/=10;
+		        //if(a==1)
+		        // sum+=1;
+		        
+		    }
+		    System.out.println(sum);
+		}
+
+	}
+}
+```
+Your Output
+
+15
+
+9
+
+8
