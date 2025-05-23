@@ -1,5 +1,5 @@
 # RESOURCES
-- ![Highest 2nd salary] (https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/)
+- [Highest 2nd salary] (https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/)
 
 
 
