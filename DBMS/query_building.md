@@ -1,5 +1,6 @@
 # RESOURCES
 - [Highest 2nd salary] (https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/)
+- [avg salary] (https://www.geeksforgeeks.org/finding-average-salary-of-each-department-in-sql-server/)
 
 
 
